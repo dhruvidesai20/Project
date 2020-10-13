@@ -38,6 +38,9 @@ function p1End(evt){
 
 function p2Start(evt){
   startingX= evt.touches[0].clientX;
+  p1.style.transition= '';
+  p2.style.transition= '';
+  p1.style.display= 'none';
 }
 
 function p2Move(evt){
