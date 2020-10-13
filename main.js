@@ -46,9 +46,9 @@ function p2Move(evt){
   if (change<0) {
     return;
   }
-  p1.style.left= change + 'px';
   p1.style.display= 'block';
   p2.style.left= (change - screen.width) + 'px';
+  p1.style.left= change + 'px';
   evt.preventDefault();
 }
 
@@ -59,11 +59,10 @@ function p2End(evt){
     p2.style.left= 0;
     p1.style.left= '-100%';
     p1.style.display= 'none';
-  }
-  else{
+  } else{
     p1.style.transition= 'all .3s';
     p2.style.transition= 'all .3s';
-    p2.style.left= '100%';
     p1.style.left= 0;
+    p2.style.left= '100%';
   }
 }
