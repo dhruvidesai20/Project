@@ -64,5 +64,6 @@ function p2End(evt){
     p2.style.transition= 'all .3s';
     p1.style.left= 0;
     p2.style.left= '100%';
+    p2.style.display= 'none';
   }
 }
