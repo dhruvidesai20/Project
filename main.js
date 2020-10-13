@@ -50,8 +50,8 @@ function p2Move(evt){
     return;
   }
   p1.style.display= 'block';
-  p2.style.left= (change - screen.width) + 'px';
-  p1.style.left= change + 'px';
+  p1.style.left= (change - screen.width) + 'px';
+  p2.style.left= change + 'px';
   evt.preventDefault();
 }
 
