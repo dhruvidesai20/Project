@@ -1,0 +1,21 @@
+.page1{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: red;
+  font-size: 3rem;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.page2{
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: green;
+  font-size: 3rem;
+  left: 100%;
+  top: 0;
+  bottom: 0;
+}
