@@ -28,6 +28,8 @@ function p1End(evt){
     p2.style.display= 'none';
   }
   else{
+    p1.style.transition= 'all .3s';
+    p2.style.transition= 'all .3s';
     p1.style.left= '-100%';
     p2.style.left= 0;
     p2.style.display= 'block';
@@ -59,6 +61,8 @@ function p2End(evt){
     p1.style.display= 'none';
   }
   else{
+    p1.style.transition= 'all .3s';
+    p2.style.transition= 'all .3s';
     p2.style.left= '100%';
     p1.style.left= 0;
   }
