@@ -19,3 +19,14 @@
   top: 0;
   bottom: 0;
 }
+.page3{
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: blue;
+  font-size: 3rem;
+  left: 100%;
+  top: 0;
+  bottom: 0;
+}
