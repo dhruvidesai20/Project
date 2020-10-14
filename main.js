@@ -118,7 +118,7 @@ function p3Move(evt){
 }
 function p3End(evt){
   var change= evt.changedTouches[0].clientX - startingX;
-  var diff= screen.width / 8;
+  var diff= screen.width / 4;
   if (change<diff) {
     p2.style.left= '-100%';
     p2.style.display= 'none';
