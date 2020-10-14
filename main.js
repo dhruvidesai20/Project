@@ -129,5 +129,6 @@ function p3End(evt){
     p3.style.transition= 'all .3s';
     p2.style.left= 0;
     p3.style.left= '100%';
+    p3.style.display= 'none';
   }
 }
